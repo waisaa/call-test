@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  app:
+    build: .
+    restart: always
+    network_mode: host
+    image: app
+    command: python3 app/main.py
