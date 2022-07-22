@@ -4,7 +4,7 @@
 
 *Python3项目打包成Docker镜像发布拉取*
 
-[![](https://img.shields.io/badge/document-fastapi-blue.svg)](https://fastapi.tiangolo.com/) [![](https://img.shields.io/badge/license-WLF-brightgreen.svg)](https://github.com/waisaa/call-test/call-test/-/blob/master/LICENSE)
+[![](https://img.shields.io/badge/blog-waisaa-9cf.svg)](https://blog.csdn.net/qq_42761569?type=blog) [![](https://img.shields.io/badge/document-fastapi-blue.svg)](https://fastapi.tiangolo.com/) [![](https://img.shields.io/badge/license-WLF-brightgreen.svg)](https://github.com/waisaa/call-test/call-test/-/blob/master/LICENSE)
 
 </div>
 

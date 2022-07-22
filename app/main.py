@@ -12,10 +12,7 @@ async def root():
 
 def main(args):
     """主函数"""
-    if args and len(args) > 1:
-        host = args[1]
-    else:
-        host = '0.0.0.0'
+    host = args[1]
     uvicorn.run("main:app", host=host, port=8111, reload=True, debug=True)
 
 
