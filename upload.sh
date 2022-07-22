@@ -5,10 +5,10 @@
 # 110.110.110.110是我的docker registry所部署的服务器
 
 # 构建镜像
-docker build -t call-sim:v1 .
-docker tag call-sim:v1 110.110.110.110:5000/call-sim:v1
+docker build -t call-test:v1 .
+docker tag call-test:v1 110.110.110.110:5000/call-test:v1
 
 # 先登录
 docker login --username=admin 110.110.110.110:5000
-#输入密码并推送 yl@harbor@20220708
-docker push 110.110.110.110:5000/call-sim:v1
+#输入密码并推送
+docker push 110.110.110.110:5000/call-test:v1
